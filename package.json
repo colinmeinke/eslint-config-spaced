@@ -20,5 +20,6 @@
   "keywords": [
     "eslint",
     "eslintconfig"
-  ]
+  ],
+  "license": "ISC"
 }
