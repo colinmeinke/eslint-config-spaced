@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-spaced",
+  "description": "An extensible shared config for ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": {
+    "name": "Colin Meinke",
+    "email": "hello@colinmeinke.com",
+    "url": "colinmeinke.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinmeinke/eslint-config-spaced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colinmeinke/eslint-config-spaced/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
+}
