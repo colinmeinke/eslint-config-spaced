@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "lint": "npm link . && eslint index.js",
+    "lint": "npm link && npm link eslint-config-spaced && eslint index.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": {
