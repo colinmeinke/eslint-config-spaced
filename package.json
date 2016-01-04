@@ -1,10 +1,12 @@
 {
   "name": "eslint-config-spaced",
+  "version": "0.0.0-semantically-released",
   "description": "An extensible shared config for ESLint",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "lint": "npm link . && eslint index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "test"
   },
   "author": {
@@ -14,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colinmeinke/eslint-config-spaced.git"
+    "url": "https://github.com/colinmeinke/eslint-config-spaced.git"
   },
   "bugs": {
     "url": "https://github.com/colinmeinke/eslint-config-spaced/issues"
@@ -29,7 +31,8 @@
     "cz-conventional-changelog": "^1.1.5",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.1.1",
-    "eslint-plugin-react": "^3.13.1"
+    "eslint-plugin-react": "^3.13.1",
+    "semantic-release": "^4.3.5"
   },
   "peerDependencies": {
     "eslint": "^1.10.3",
