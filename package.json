@@ -6,8 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "lint": "npm link . && eslint index.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "test": "test"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": {
     "name": "Colin Meinke",
