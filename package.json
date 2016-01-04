@@ -3,6 +3,7 @@
   "description": "An extensible shared config for ESLint",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "test"
   },
   "author": {
@@ -21,5 +22,14 @@
     "eslint",
     "eslintconfig"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^2.4.6",
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
