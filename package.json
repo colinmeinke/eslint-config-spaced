@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
+    "lint": "npm link . && eslint index.js",
     "test": "test"
   },
   "author": {
@@ -25,7 +26,15 @@
   "license": "ISC",
   "devDependencies": {
     "commitizen": "^2.4.6",
-    "cz-conventional-changelog": "^1.1.5"
+    "cz-conventional-changelog": "^1.1.5",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.13.1"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.13.1"
   },
   "config": {
     "commitizen": {
