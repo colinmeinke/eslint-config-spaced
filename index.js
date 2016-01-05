@@ -1,5 +1,6 @@
 module.exports = {
   'extends': 'airbnb',
+  'parser': 'babel-eslint',
   'ecmaFeatures': {
     'experimentalObjectRestSpread': true,
   },
