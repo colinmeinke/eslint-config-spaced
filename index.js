@@ -19,8 +19,8 @@ module.exports = {
     }],
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-sort-props': 2,
-    'react/jsx-sort-prop-types': 2,
     'react/no-set-state': 2,
+    'react/sort-prop-types': 2,
     'space-before-function-paren': [ 2, {
       anonymous: 'always',
       named: 'always',
@@ -32,5 +32,6 @@ module.exports = {
       words: true,
       nonwords: false,
     }],
+    'template-curly-spacing': [ 2, 'always' ],
   },
 };
